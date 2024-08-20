@@ -11,6 +11,7 @@ win_main.resizable(False,False)
 win_main.configure(bg="black")
 
 from functions import *
+
 centralizar_janela(win_main,524,750)
 
 # |==============================================================|
