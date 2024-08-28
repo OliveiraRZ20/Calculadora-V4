@@ -87,6 +87,8 @@ class Calculadora:
         if self.primeiro_digito:
             pass
         else:
+            if len(expressao_str) == 1:
+                self.primeiro_digito = True
             resultado_pos_delete = expressao_str[:-1]
             expressao.set(resultado_pos_delete)
 
